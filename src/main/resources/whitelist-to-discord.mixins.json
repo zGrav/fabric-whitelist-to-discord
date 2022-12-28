@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "zgrav.whitelisttodiscord.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "WhitelistCommandMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

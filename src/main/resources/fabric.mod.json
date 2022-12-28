@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "whitelist-to-discord",
+  "version": "${version}",
+  "name": "Whitelist To Discord",
+  "description": "",
+  "authors": [
+    "zGrav"
+  ],
+  "contact": {},
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "zgrav.whitelisttodiscord.WhitelistToDiscord"
+    ]
+  },
+  "mixins": [
+    "whitelist-to-discord.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
